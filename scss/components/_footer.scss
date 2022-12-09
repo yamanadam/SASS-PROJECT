@@ -16,3 +16,28 @@
   padding: 0.5rem;
   @extend .forExtend;
 }
+
+.footer_about {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0.5rem;
+  @extend .forExtend;
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1rem;
+    left: 1.5rem;
+  }
+
+  .copyright {
+    position: fixed;
+    bottom: 1rem;
+    right: 2.5rem;
+    // transform: rotate(90deg) translate(-3rem, -5rem);
+    writing-mode: vertical-rl;
+  }
+}

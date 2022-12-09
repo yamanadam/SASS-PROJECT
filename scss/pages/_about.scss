@@ -1,0 +1,33 @@
+.about_bio {
+  @include bgImage(50vh, $developerImg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .bio_text {
+    text-align: center;
+    padding: 1rem;
+
+    h2 {
+      font-size: 3rem;
+      color: $secondaryColor;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.main {
+  &_container {
+    width: 70vw;
+    margin: 2rem auto;
+  }
+
+  &_job {
+    margin: 1rem;
+    background-color: lighten($primaryColor, 10%);
+    padding: 1rem;
+    border-radius: 5px;
+    border-bottom: 5px solid $secondaryColor;
+  }
+}
