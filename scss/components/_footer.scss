@@ -41,3 +41,12 @@
     writing-mode: vertical-rl;
   }
 }
+
+.footer_contact {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 0.5rem;
+  @extend .forExtend;
+}

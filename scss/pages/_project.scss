@@ -19,10 +19,11 @@
     gap: 1rem 0;
   }
   &_item {
-    width: 100%;
+    width: 40%;
     cursor: pointer;
     border-bottom: 5px solid $secondaryColor;
     position: relative;
+    margin: 0.5rem;
 
     img {
       width: 100%;

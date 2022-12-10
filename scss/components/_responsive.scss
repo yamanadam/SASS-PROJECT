@@ -1,0 +1,95 @@
+@include media-xsm {
+  body {
+    font-size: 0.5rem;
+    line-height: 0.5;
+  }
+
+  .nav {
+    padding: 0.5rem;
+    &_ul {
+      text-align: center;
+    }
+    &_li {
+      padding-right: 0.7rem;
+    }
+    .nav_a {
+      font-size: 0.9rem;
+    }
+  }
+  .contact {
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    &_ul {
+      gap: 2rem 1.2rem;
+      font-size: 1.2rem;
+    }
+  }
+}
+@include media-sm {
+  body {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .nav {
+    padding: 0.7rem;
+    &_ul {
+      text-align: right;
+    }
+    &_li {
+      padding-right: 1rem;
+    }
+    .nav_a {
+      font-size: 1rem;
+    }
+  }
+  .contact {
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    &_list {
+      gap: 2.5rem 2rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@include media-md {
+  .nav {
+    &_li {
+      padding-right: 1.3rem;
+    }
+    .nav_a {
+      font-size: 1.3rem;
+    }
+  }
+  .projects_item {
+    width: 100%;
+  }
+}
+
+@include media-lg {
+  .nav {
+    &_li {
+      padding-right: 1.5rem;
+    }
+    .nav_a {
+      font-size: 1.5rem;
+    }
+  }
+
+  .projects_item {
+    width: 50%;
+  }
+  .contact_list {
+    flex-direction: row;
+  }
+}
+
+@include media-xl {
+  .projects_item {
+    width: 33%;
+  }
+}

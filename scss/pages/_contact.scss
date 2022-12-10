@@ -1,0 +1,32 @@
+.contact_container {
+  @include bgImage(100vh, $developerImg);
+
+  nav {
+    height: 20vh;
+  }
+
+  .contact {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .contact_item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+
+    .info {
+      color: $secondaryColor;
+    }
+  }
+}
